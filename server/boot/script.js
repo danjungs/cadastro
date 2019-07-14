@@ -25,7 +25,6 @@ module.exports = function(app){
             principalId: users.id
             },(err, principal) =>{
               if (err) throw err;
-              console.log('Created principal:', principal);
             });
         })
 
