@@ -39,15 +39,15 @@
       "permission": "DENY"
     },
     {
-      "accessType": "READ",
+      "accessType": "*",
       "principalType": "ROLE",
-      "principalId": "$owner",
+      "principalId": "Admin",
       "permission": "ALLOW"
     },
     {
       "accessType": "*",
       "principalType": "ROLE",
-      "principalId": "Admin",
+      "principalId": "$owner",
       "permission": "ALLOW"
     }
   ],
