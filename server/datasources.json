@@ -4,7 +4,7 @@
     "connector": "memory"
   },
   "mongoDB": {
-    "host": "localhost",
+    "host": "mongo",
     "port": 27017,
     "url": "",
     "database": "cadastro",
