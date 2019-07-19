@@ -21,7 +21,7 @@ module.exports = function(Usuario) {
     };
       Usuario.remoteMethod('auth', {
         accepts: [{
-            arg: 'login', type: 'object'
+            arg: 'login', type: 'Object'
         }],
         returns: {arg: 'success', type: 'string'},
         http: {path:'/auth', verb: 'post'}
